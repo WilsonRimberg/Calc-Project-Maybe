@@ -1,5 +1,4 @@
-import math
-def func(x,f,h)
+def func(x,f,h):
     return (f(x+h)-f(x-h))/(2*h)
 opening= input("Welcome to our Calculus program. Press 'h' for help, press 'f' to insert a function, or press 'q' to quit. ") 
 while opening not in ["q", "z"]:
@@ -22,6 +21,7 @@ while opening not in ["q", "z"]:
         lwrbound=float(input("What is the lower boundary of the function? "))
         upprbound=float(input("What is the upper boundary of the function? "))
         opening="z"
+        func(f=sin, x=0, h=.01)
 if opening== "q":
     print("Goodbye!")
 if opening== "z":
