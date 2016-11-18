@@ -15,10 +15,10 @@ while opening not in ["q"]:
             opening= input("Welcome to our Calculus program. Press 'h' for help, press 'f' to insert a function, or press 'q' to quit. ") 
         if helping not in ["h", "f", "r"]:
            helping=input("It seems you entered an incorrect command, please try again. Press 'f' for how to enter a function, press 'b' for how to enter boundaries, or press 'r' to return to the previous screen. ")
-    if opening=="f"
+    if opening=="f":
         function=input("f(x)= ")
         interval=input("What are the boundaries of the interval? ")
-        
+        print("wub")
 if opening== "q":
     print("Goodbye!")
 interval=input("What are the boundaries of the interval? ")
